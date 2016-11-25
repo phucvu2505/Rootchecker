@@ -30,7 +30,7 @@
                     android:textColor="@color/defaultTextColor" />
 
                 <TextView
-                    android:id="@+id/TextView06"
+                    android:id="@+id/txt_manufacturer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=" "
@@ -51,7 +51,7 @@
                     android:textColor="@color/defaultTextColor" />
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/txt_device"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=" "
@@ -72,7 +72,7 @@
                     android:textColor="@color/defaultTextColor" />
 
                 <TextView
-                    android:id="@+id/TextView09"
+                    android:id="@+id/txt_model"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=" "
@@ -93,7 +93,7 @@
                     android:textColor="@color/defaultTextColor" />
 
                 <TextView
-                    android:id="@+id/TextView05"
+                    android:id="@+id/txt_osversion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=" "
@@ -129,7 +129,7 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:id="@+id/imageView2"
+                    android:id="@+id/img_chmeckmark"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/checkmark" />
@@ -148,7 +148,7 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/img_xmark"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/xmark" />
@@ -168,15 +168,8 @@
             </TableRow>
         </TableLayout>
 
-        <FrameLayout
-            android:id="@+id/frameLayout1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/button2" >
-        </FrameLayout>
-
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/btn_check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
